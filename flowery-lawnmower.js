@@ -18,9 +18,9 @@ function draw() {
     h = h + 3;
   }
   
-  if (h > 200) {
-    fill(340, 80, 100);
-    ellipse(random(400), random(200, 300), 10);
+  if (h > 100) {
+    fill(340, randome(100), 100);
+    ellipse(random(400), random(100, 200), 10);
   }
   
   // mouseleft control lawnmower
